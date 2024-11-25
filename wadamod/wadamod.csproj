@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+  <Reference Include="MelonLoader">
+    <HintPath>C:\Users\tinyman\Documents\steamcmd\steamapps\common\Wadality\MelonLoader\net6\MelonLoader.dll</HintPath>
+  </Reference>
+  
+  <Reference Include="Il2Cppmscorlib">
+    <HintPath>C:\Users\tinyman\Documents\steamcmd\steamapps\common\Wadality\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath>
+  </Reference>
+
+  <Reference Include="Il2CppInterop.Common">
+    <HintPath>C:\Users\tinyman\Documents\steamcmd\steamapps\common\Wadality\MelonLoader\Dependencies\SupportModules\Il2CppInterop.Common.dll</HintPath>
+  </Reference>
+  
+  <Reference Include="Il2CppInterop.Runtime">
+    <HintPath>C:\Users\tinyman\Documents\steamcmd\steamapps\common\Wadality\MelonLoader\Dependencies\SupportModules\Il2CppInterop.Runtime.dll</HintPath>
+  </Reference>
+  
+  <Reference Include="UnityEngine.CoreModule">
+    <HintPath>C:\Users\tinyman\Documents\steamcmd\steamapps\common\Wadality\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
+  </Reference>
+  
+  <Reference Include="Il2CppSirenix.Serialization.dll">
+    <HintPath>C:\Users\tinyman\Documents\steamcmd\steamapps\common\Wadality\MelonLoader\Il2CppAssemblies\Il2CppSirenix.Serialization.dll</HintPath>
+  </Reference>
+
+ <Reference Include="Il2CppWadaCore">
+    <HintPath>C:\Users\tinyman\Documents\steamcmd\steamapps\common\Wadality\MelonLoader\Il2CppAssemblies\Il2CppWadaCore.dll</HintPath>
+ </Reference>
+  
+  </ItemGroup>
+
+</Project>
